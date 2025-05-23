@@ -65,15 +65,15 @@ const SignUp = () => {
 						/>
 						<label htmlFor='no'>No</label>
 					</div>
-					<div className='mt-auto mb-10 md:mb-4'>
-						<NavLink to='/settings'>
+					
+						<NavLink to='/settings' className='mt-auto mb-10 md:mb-4'>
 							<Button
 								type='submit'
 								role='primary'
 								text='Create Account'
 							/>
 						</NavLink>
-					</div>
+					
 				</form>
 			</div>
 		</div>
