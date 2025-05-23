@@ -1,8 +1,8 @@
 import { Route, Routes } from 'react-router-dom';
-import Welcome from './pages/welcome';
+import Welcome from './pages/Welcome';
 import Settings from './pages/settings';
 import SignIn from './pages/sign-in';
-import SignUp from './pages/sign-up';
+import SignUp from './pages/Sign-up';
 
 function App() {
 	return (
