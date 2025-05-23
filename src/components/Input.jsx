@@ -12,7 +12,7 @@ const Input = ({ type, text, placeholder, name }) => {
 				htmlFor={name}
 				className='absolute text-lg text-blue-800  transform scale-75 -translate-y-4 top-1 z-10 origin-[0] bg-white px-2 start-1'
 			>
-				{text}
+				{text} <span className="text-red-500 text-md">*</span>
 			</label>
 		</div>
 	);
